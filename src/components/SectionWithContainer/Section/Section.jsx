@@ -1,7 +1,7 @@
 import css from "./Section.module.css";
 
 const Section = () => {
-  return <div>Section</div>;
+  return <section>Section</section>;
 };
 
 export default Section;

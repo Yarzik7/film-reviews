@@ -1,9 +1,13 @@
-import css from './SectionWithContainer.module.css'
+import Section from "./Section/Section";
+import Container from "./Container/Container";
+import css from "./SectionWithContainer.module.css";
 
-const SectionWithContainer = () => {
+const SectionWithContainer = ({ children }) => {
   return (
-    <div>SectionWithContainer</div>
-  )
-}
+    <Section>
+      <Container>{children}</Container>
+    </Section>
+  );
+};
 
-export default SectionWithContainer
+export default SectionWithContainer;
