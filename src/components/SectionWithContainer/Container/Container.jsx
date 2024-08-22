@@ -1,9 +1,7 @@
-import css from './Container.module.css'
+import css from "./Container.module.css";
 
-const Container = () => {
-  return (
-    <div>Container</div>
-  )
-}
+const Container = ({ children }) => {
+  return <div>{children}</div>;
+};
 
-export default Container
+export default Container;
