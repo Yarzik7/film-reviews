@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Film Reviews",
   description: "Film Reviews",
+  icons: { icon: "/images/favicon.webp" },
 };
 
 export default function RootLayout({ children }) {

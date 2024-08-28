@@ -1,3 +1,6 @@
-// Colors
+:root {
+  /* Colors */
 
---accent-color: #000;
+  --accent-color: #000;
+  --primary-black-color: #000;
+}
