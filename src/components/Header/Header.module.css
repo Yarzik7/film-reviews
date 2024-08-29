@@ -4,3 +4,8 @@
 
   background-color: green;
 }
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}

@@ -5,7 +5,7 @@ import css from "./Header.module.css";
 const Header = () => {
   return (
     <header className={css.header}>
-      <Container>
+      <Container className={css.headerContainer}>
         <Logo />
       </Container>
     </header>
