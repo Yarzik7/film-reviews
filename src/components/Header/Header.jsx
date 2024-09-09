@@ -1,5 +1,6 @@
-import Logo from "../Logo/Logo";
 import Container from "../SectionWithContainer/Container/Container";
+import Logo from "../Logo/Logo";
+
 import css from "./Header.module.css";
 
 const Header = () => {
