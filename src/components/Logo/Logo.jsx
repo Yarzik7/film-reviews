@@ -1,5 +1,5 @@
-import Image from "next/image";
 import logo from "../../../public/images/film-reviews-logo.webp";
+import Image from "next/image";
 import css from "./Logo.module.css";
 
 const Logo = () => {
