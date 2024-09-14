@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Navigation.module.css";
 
 const Navigation = () => {
-  return <nav>Navigation</nav>;
+  return <nav className={css.navigation}>Navigation</nav>;
 };
 
 export default Navigation;
