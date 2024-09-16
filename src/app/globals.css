@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  color: var(--primary-text-color);
+}
+
 img {
   display: block;
 }
